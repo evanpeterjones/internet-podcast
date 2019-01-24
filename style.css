@@ -4,7 +4,10 @@
 }
 
 body {
-    background-color: var(--bg-color);
+/*    background-color: var(--bg-color);
+    background-image: url("https://media.giphy.com/media/3ohzgSHpvk6b8M7f9e/giphy.gif");*/
+    background-image: url("https://static1.squarespace.com/static/52d59191e4b0002632d3a702/580d1b28725e25bbaadd9185/580e873d2994caaa1f93fd5b/1477888831158/pink_xs.gif");
+    background-color: pink;
     color: var(--accent-color);
 }
 
