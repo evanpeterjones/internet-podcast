@@ -1,19 +1,24 @@
+:root {
+    --accent-color :#9078dd;
+    --bg-color : #7c55fb;
+}
+
 body {
-    background-color: #7c55fb;
-    color: #9078dd;
+    background-color: var(--bg-color);
+    color: var(--accent-color);
 }
 
 a {
-    color: #9078dd;
+    color: var(--accent-color);
     text-decoration: none;
-    border-bottom: 2px solid #9078dd;
+    border-bottom: 2px solid var(--accent-color);
     padding-bottom: 2px;
 }
 
 a:visited {
-    color: #9078dd;
+    color: var(--accent-color);
     text-decoration: none;
-    border-bottom: 2px solid #9078dd;
+    border-bottom: 2px solid var(--accent-color);
     padding-bottom: 2px;
 }
 
@@ -35,7 +40,7 @@ a:hover {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow:7px 7px #9078dd;
+    box-shadow:7px 7px var(--accent-color);
 }
 
 h1 {
