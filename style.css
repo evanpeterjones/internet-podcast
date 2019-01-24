@@ -1,6 +1,8 @@
 :root {
     --accent-color :#9078dd;
     --bg-color : #7c55fb;
+    --font : 'Abel', sans-serif;
+/*    --font : 'Work Sans', sans-serif;*/
 }
 
 body {
@@ -47,20 +49,18 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Abel', sans-serif;
-    font-size: 4vh;
+    font-family: var(--font);
     font-weight: bold;
+    font-size: 4vh;
     letter-spacing: -1px;
 }
 
 .text {
-    font-family: 'Abel', sans-serif;
+    font-family: var(--font);
     font-size: 3vh;
-    line-height: 1.2;
 }
 
 .links {
+    font-family : var(--font);
     font-size: 2vh;
-    font-family: 'Abel', sans-serif;
-    line-height: 2;
 }
